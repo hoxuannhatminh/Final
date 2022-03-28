@@ -1,0 +1,252 @@
+
+a:hover{
+    text-decoration: none;
+}
+.no_navbar {
+    background: linear-gradient( 90deg, rgb(64, 129, 228) 0%, rgb(48, 176, 226) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.no_icon-header {
+    margin-right: 8px;
+    height: 0.8em;
+    width: 1.2em;
+}
+.no_navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.no_fa-firstdraft {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.no_nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    /* grid-gap: 10px; */
+    list-style: none;
+    text-align: center;
+    width: 72vw;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+    display: flex;
+}
+
+.no_nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.no_nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0rem;
+    position: relative;  
+    text-decoration: none; 
+    min-width: 177px;  
+}
+
+.no_nav-links:hover {
+    /* background-color: #ff1818; */
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    color: #0056b3;
+}
+.no_h1{
+    font-size: 16px;
+    width: 270px;
+    align-items: center;
+    text-align: center ;
+    color: #ff0000;
+    font-weight: 550;
+    
+}
+.no_fa-bars {
+    color: #fff;
+}
+.no_nav-links:hover  .no_menu-profile{
+    display: block;
+}
+.no_menu-profile{
+    padding-left: 0px;
+    width: 100%;
+    height: auto;
+    top :58px;
+    left: 0px;
+    list-style: none;
+    position: absolute;
+    background-color: rgb(48, 176, 226);
+    display: none;
+    z-index: 1;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 8px;
+    text-align: justify;
+
+}
+
+
+.no_menu-profile::before{
+    
+    content: "";
+    border-width: 20px 24px;
+    position:absolute;
+   top : -40px;
+   left: 54px;
+    border-style: solid;
+   border-color: transparent transparent rgb(48, 176, 226) transparent;
+  
+}
+
+
+
+.no_menu-profile::after{
+    content: "";
+   
+    width: 100%;
+    height: 30px;
+    position:absolute;
+  
+    top: -22px;
+    left: 0px;
+}
+
+.no_profile-iem{
+   /* padding-bottom: 1px; */
+   margin-top: 15px;
+   color:  white;
+}
+.no_profile-iem-p:hover {
+    color: #007bff;
+    cursor:  pointer;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .nav-links-mobile {
+    display: none;
+} */
+
+/* .menu-icon {
+    display: none;
+} */
+
+
+/* :root {
+    --primary: #1888ff;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.btn:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #000;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+} */
+
+/* @media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .nav-menu.active {
+        background: #242222;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+    .nav-links:hover {
+        background-color: #1888ff;
+        border-radius: 0;
+    }
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
+    }
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #1888ff;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .nav-links-mobile:hover {
+        background: #fff;
+        color: #1888ff;
+        transition: 250ms;
+    }
+    button {
+        display: none;
+    }
+} */
